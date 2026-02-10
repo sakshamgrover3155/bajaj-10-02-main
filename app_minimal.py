@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 @app.route('/health', methods=['GET'])
 def health():
-    return jsonify({"is_success": True, "official_email": "test@chitkara.edu.in"}), 200
+    return jsonify({"is_success": True, "official_email": "saksham2200.be23@chitkara.edu.in"}), 200
 
 @app.route('/bfhl', methods=['POST'])
 def bfhl():
