@@ -13,7 +13,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # Configuration
-OFFICIAL_EMAIL = "your_email@chitkara.edu.in"
+OFFICIAL_EMAIL = "saksham2200@chitkara.edu.in"
 
 # Configure Google Gemini API
 try:
